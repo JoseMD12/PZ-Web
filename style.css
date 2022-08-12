@@ -1,0 +1,43 @@
+body{
+    background-image: url(fundo.png);
+}
+
+.logo-pz{
+    position: absolute;
+    width: 111px;
+    height: 99px;
+    left: 148px;
+    top: 150px;
+}
+
+.insta-icon{
+    position: absolute;
+    width: 120px;
+    height: 126px;
+    left: 441px;
+    top: 243px;
+}
+
+.twitter-icon{
+    position: absolute;
+    width: 119px;
+    height: 125px;
+    left: 770px;
+    top: 240px;
+}
+
+.tiktok-icon{
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    left: 441px;
+    top: 452px;
+}
+
+.pinterest-icon{
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    left: 772px;
+    top: 452px;
+}
