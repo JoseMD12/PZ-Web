@@ -13,38 +13,44 @@ body{
     position: absolute;
     width: 111px;
     height: 99px;
-    left: 148px;
-    top: 150px;
+    left: 225px;
+    top: 595px;
 }
 
 .insta-icon{
     position: absolute;
     width: 120px;
     height: 126px;
-    left: 441px;
-    top: 243px;
+    left: 865px;
+    top: 384px;
 }
 
 .twitter-icon{
     position: absolute;
     width: 119px;
     height: 125px;
-    left: 770px;
-    top: 240px;
+    left: 1165px;
+    top: 381px;
 }
 
 .tiktok-icon{
     position: absolute;
     width: 120px;
     height: 125px;
-    left: 441px;
-    top: 452px;
+    left: 865px;
+    top: 636px;
+    
 }
 
 .pinterest-icon{
     position: absolute;
     width: 120px;
     height: 125px;
-    left: 772px;
-    top: 452px;
+    left: 1167px;
+    top: 636px;
+}
+
+hr{
+    margin-left: 1200px;
+    color: white;
 }
