@@ -1,56 +1,17 @@
-h1{
-    width: 530px;
-    margin-top: 300px;
-    font-size: 44px;
-    font-weight: bold;
-}
-
 body{
-    background-image: url(fundo.png);
+    background: linear-gradient(#E3F2FE ,#C9E7F5);
 }
 
 .logo-pz{
-    position: absolute;
-    width: 111px;
-    height: 99px;
-    left: 225px;
-    top: 595px;
+    position:absolute;
+    width: 68px;
+    margin-top: 355px;
+    margin-left: 213px;
 }
 
-.insta-icon{
-    position: absolute;
-    width: 120px;
-    height: 126px;
-    left: 865px;
-    top: 384px;
-}
-
-.twitter-icon{
-    position: absolute;
-    width: 119px;
-    height: 125px;
-    left: 1165px;
-    top: 381px;
-}
-
-.tiktok-icon{
-    position: absolute;
-    width: 120px;
-    height: 125px;
-    left: 865px;
-    top: 636px;
-    
-}
-
-.pinterest-icon{
-    position: absolute;
-    width: 120px;
-    height: 125px;
-    left: 1167px;
-    top: 636px;
-}
-
-hr{
-    margin-left: 1200px;
-    color: white;
+.foto-perfil{
+    position:absolute;
+    width: 147px;
+    margin-left: 107px;
+    margin-top: 259px
 }
