@@ -1,12 +1,8 @@
-body{
-    background: linear-gradient(#E3F2FE ,#C9E7F5);
-}
-
 .logo-pz{
     position:absolute;
-    width: 68px;
+    width: 85;
     margin-top: 355px;
-    margin-left: 213px;
+    margin-left: 201px;
 }
 
 .foto-perfil{
@@ -14,4 +10,45 @@ body{
     width: 147px;
     margin-left: 107px;
     margin-top: 259px
+}
+
+.nav:hover {
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.nav a p{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+}
+
+.insta-icon{
+    margin-top: 189px;
+    margin-left: 831px;
+    position: absolute;
+}
+
+.insta-icon + p{
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 831px;
+}
+
+.twitter-icon{
+    margin-top: 189px;
+    margin-left: 1133px;
+    position: absolute
+}
+
+.tiktok-icon{
+    position: absolute;
+    margin-top: 467px;
+    margin-left: 831px
+}
+
+.pinterest-icon{
+    position: absolute;
+    margin-top: 467px;
+    margin-left: 1133px;
 }
