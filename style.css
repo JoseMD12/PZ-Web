@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'SF Pro Display Thin Italic';
     src: url('SFPRODISPLAYTHINITALIC.OTF') format('opentype'),
-    url('SFPRODISPLAYTHINITALIC.TTF') format('truetype');
+    url('SFPRODISPLAYTHINITALIC.ttf') format('truetype');
 }
 
 html{
@@ -9,14 +9,17 @@ html{
 }
 
 body{
-    font-family: 'SF Pro Display Thin Italic';
-    font-size: 24px;
-    text-decoration: none;
-    color: #000000;
     padding: 0px;
     margin: 0px;
     width: 100%;
     min-height: 100vh;
+}
+
+p {
+    color:black;
+    font-family: 'SF Pro Display Thin Italic';
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .logo-pz{
@@ -36,11 +39,12 @@ body{
 nav:hover {
     cursor:pointer;
     text-decoration: none;
+    color: #000000;
 }
 
 .gif{
     position:absolute;
-    opacity: 0;
+    opacity: 0.2;
 }
 
 .icone{
@@ -54,10 +58,14 @@ nav:hover {
     left: 719px;
 }
 
-.insta-icon + .gif + p{
+.insta-icon + p{
     position: absolute;
-    top: 254px;
-    left: 709px;
+    top: 253px;
+    left: 718px;
+}
+
+.insta-icon:hover{
+    content: url('transicao.gif');
 }
 
 .twitter-icon{
@@ -65,10 +73,15 @@ nav:hover {
     left: 1116px;
 }
 
-.twitter-icon + .gif + p{
+.twitter-icon + p{
     position: absolute;
-    top: 254px;
-    left: 1107px;
+    top: 253px;
+    left: 1116px;
+}
+
+
+.twitter-icon:hover{
+    content: url('transicao.gif');
 }
 
 .tiktok-icon{
@@ -76,10 +89,15 @@ nav:hover {
     left: 719px;
 }
 
-.tiktok-icon + .gif + p{
+.tiktok-icon + p{
     position: absolute;
-    top: 572px;
-    left: 709px;
+    top: 575px;
+    left: 718px;
+}
+
+
+.tiktok-icon:hover{
+    content: url('transicao.gif');
 }
 
 .pinterest-icon{
@@ -87,8 +105,12 @@ nav:hover {
     left: 1116px;
 }
 
-.pinterest-icon + .gif + p{
+.pinterest-icon + p{
     position: absolute;
-    top: 572px;
-    left: 1107px;
+    top: 575px;
+    left: 1116px;
+}
+
+.pinterest-icon:hover{
+    content: url('transicao.gif');
 }
