@@ -1,6 +1,17 @@
+html{
+    background: linear-gradient(#e5f4ff 90.5%, #b7e0ffdb);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .logo-pz{
     position:absolute;
-    width: 85;
+    width: 85px;
     margin-top: 355px;
     margin-left: 201px;
 }
@@ -12,43 +23,67 @@
     margin-top: 259px
 }
 
-.nav:hover {
+nav:hover {
     cursor:pointer;
     text-decoration: none;
 }
 
-.nav a p{
-    position: absolute;
+nav a p{
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.gif{
+    position:absolute;
+    opacity: 0;
+}
+
+.icone{
+    position: absolute;
+    width: 105px;
+    display: block;
 }
 
 .insta-icon{
-    margin-top: 189px;
-    margin-left: 831px;
-    position: absolute;
+    top: 135px;
+    left: 719px;
 }
 
-.insta-icon + p{
+.insta-icon + .gif + p{
     position: absolute;
-    margin-top: 195px;
-    margin-left: 831px;
+    top: 254px;
+    left: 725px;
 }
 
 .twitter-icon{
-    margin-top: 189px;
-    margin-left: 1133px;
-    position: absolute
+    top: 135px;
+    left: 1116px;
+}
+
+.twitter-icon + .gif + p{
+    position: absolute;
+    top: 254px;
+    left: 1123px;
 }
 
 .tiktok-icon{
+    top: 454px;
+    left: 719px;
+}
+
+.tiktok-icon + .gif + p{
     position: absolute;
-    margin-top: 467px;
-    margin-left: 831px
+    top: 572px;
+    left: 725px;
 }
 
 .pinterest-icon{
+    top: 454px;
+    left: 1116px;
+}
+
+.pinterest-icon + .gif + p{
     position: absolute;
-    margin-top: 467px;
-    margin-left: 1133px;
+    top: 572px;
+    left: 1123px;
 }
