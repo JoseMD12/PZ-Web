@@ -6,15 +6,12 @@
 
 /* Corpo da pagina */
 
-html{
-    background: linear-gradient(#e5f4ff 90.5%, #b7e0ffdb);
-}
-
 body{
     padding: 0px;
     margin: 0px;
     width: 100%;
     min-height: 100vh;
+    background: linear-gradient(#E3F2FE 90.5%, #C9E7F5);
 }
 
 p {
@@ -132,6 +129,84 @@ nav:hover {
 
 /* Mobile */ 
 
-@media screen and (max-width: 480px){
-    
+@media screen and (max-width: 540px){
+    p{
+        font-size: 8px;
+    }
+
+    .foto-perfil{
+        width: 26.57vw;
+        left: 37.966vw;
+        top: 6.274vh;
+    }
+
+    .logo-pz{
+        width: 14.533vw;
+        top: 15.7190vh;
+        left: 55.08vw;
+    }
+
+    #linha{
+        height: 0%;
+        width: 100%;
+        border-bottom: 2px solid white;
+        top: 28vh;
+        left: 0vw;
+    }
+
+    .icone{
+        width: 10.739vw;
+    }
+
+    .insta-icon{
+        top: 43.9vh;
+        left: 26.79vw;
+    }
+
+    .insta-icon + p{
+        top: 50.434vh;
+        left: 25.7vw;
+    }
+
+    .twitter-icon{
+        top: 43.9vh;
+        left: 66.655vw;
+    }
+
+    .twitter-icon + p{
+        top: 50.434vh;
+        left: 65.5vw;
+    }
+
+    .tiktok-icon{
+        top: 68.585vh;
+        left: 26.79vw;
+    }
+
+    .tiktok-icon + p{
+        top: 75vh;
+        left: 25.7vw;
+    }
+
+    .pinterest-icon{
+        top: 68.585vh;
+        left: 66.655vw;
+    }
+
+    .pinterest-icon + p{
+        top: 75vh;
+        left: 65.5vw;
+    }
+
 }
+
+/* 
+
+
+
+
+
+
+
+
+*/
