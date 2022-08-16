@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'SF Pro Display Thin Italic';
+    src: url('SFPRODISPLAYTHINITALIC.OTF') format('opentype'),
+    url('SFPRODISPLAYTHINITALIC.TTF') format('truetype');
+}
+
 html{
     background: linear-gradient(#e5f4ff 90.5%, #b7e0ffdb);
 }
 
 body{
+    font-family: 'SF Pro Display Thin Italic';
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -12,25 +22,20 @@ body{
 .logo-pz{
     position:absolute;
     width: 85px;
-    margin-top: 355px;
-    margin-left: 201px;
+    top: 355px;
+    left: 201px;
 }
 
 .foto-perfil{
     position:absolute;
     width: 147px;
-    margin-left: 107px;
-    margin-top: 259px
+    left: 107px;
+    top: 259px
 }
 
 nav:hover {
     cursor:pointer;
     text-decoration: none;
-}
-
-nav a p{
-    color: #000000;
-    text-decoration: underline;
 }
 
 .gif{
@@ -52,7 +57,7 @@ nav a p{
 .insta-icon + .gif + p{
     position: absolute;
     top: 254px;
-    left: 725px;
+    left: 709px;
 }
 
 .twitter-icon{
@@ -63,7 +68,7 @@ nav a p{
 .twitter-icon + .gif + p{
     position: absolute;
     top: 254px;
-    left: 1123px;
+    left: 1107px;
 }
 
 .tiktok-icon{
@@ -74,7 +79,7 @@ nav a p{
 .tiktok-icon + .gif + p{
     position: absolute;
     top: 572px;
-    left: 725px;
+    left: 709px;
 }
 
 .pinterest-icon{
@@ -85,5 +90,5 @@ nav a p{
 .pinterest-icon + .gif + p{
     position: absolute;
     top: 572px;
-    left: 1123px;
+    left: 1107px;
 }
