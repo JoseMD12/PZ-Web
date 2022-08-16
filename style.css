@@ -4,6 +4,8 @@
     url('SFPRODISPLAYTHINITALIC.ttf') format('truetype');
 }
 
+/* Corpo da pagina */
+
 html{
     background: linear-gradient(#e5f4ff 90.5%, #b7e0ffdb);
 }
@@ -18,23 +20,36 @@ body{
 p {
     color:black;
     font-family: 'SF Pro Display Thin Italic';
-    font-size: 20px;
+    font-size: 1.3020833333333333vw;
     text-decoration: none;
 }
 
+/* Elementos do perfil */
+
 .logo-pz{
     position:absolute;
-    width: 85px;
-    top: 355px;
-    left: 201px;
+    width: 5.533vw;
+    top: 49.719vh;
+    left: 13.08vw;
 }
 
 .foto-perfil{
     position:absolute;
-    width: 147px;
-    left: 107px;
-    top: 259px
+    width: 9.57vw;
+    left: 6.966vw;
+    top: 36.274vh;
 }
+
+/* Linha de divisao */
+
+#linha{
+    position: absolute;
+    height: 100%;
+    border-right: 2px solid white;
+    left: 28vw;
+}
+
+/* Elementos da navegacao -> Icones, texto e gif */
 
 nav:hover {
     cursor:pointer;
@@ -42,75 +57,81 @@ nav:hover {
     color: #000000;
 }
 
-.gif{
-    position:absolute;
-    opacity: 0.2;
-}
-
 .icone{
     position: absolute;
-    width: 105px;
+    width: 6.739vw;
     display: block;
 }
 
+/* instagram */ 
 .insta-icon{
-    top: 135px;
-    left: 719px;
+    top: 18.9vh;
+    left: 46.8vw;
 }
 
 .insta-icon + p{
     position: absolute;
-    top: 253px;
-    left: 718px;
+    top: 35.434vh;
+    left: 46.8vw;
 }
 
 .insta-icon:hover{
     content: url('transicao.gif');
 }
 
+/* twitter */
+
 .twitter-icon{
-    top: 135px;
-    left: 1116px;
+    top: 18.9vh;
+    left: 72.655vw;
 }
 
 .twitter-icon + p{
     position: absolute;
-    top: 253px;
-    left: 1116px;
+    top: 35.434vh;
+    left: 72.655vw;
 }
-
 
 .twitter-icon:hover{
     content: url('transicao.gif');
 }
 
+/* tiktok */
+
 .tiktok-icon{
-    top: 454px;
-    left: 719px;
+    top: 63.585vh;
+    left: 46.8vw;
 }
 
 .tiktok-icon + p{
     position: absolute;
-    top: 575px;
-    left: 718px;
+    top: 80.53vh;
+    left: 46.8vw;
 }
-
 
 .tiktok-icon:hover{
     content: url('transicao.gif');
 }
 
+/* pinterest */ 
+
 .pinterest-icon{
-    top: 454px;
-    left: 1116px;
+    top: 63.585vh;
+    left: 72.655vw;
 }
 
 .pinterest-icon + p{
     position: absolute;
-    top: 575px;
-    left: 1116px;
+    top: 80.53vh;
+    left: 72.655vw;
 }
 
 .pinterest-icon:hover{
     content: url('transicao.gif');
+}
+
+/* Mobile */ 
+
+@media screen and (max-width: 480px){
+    
 }
