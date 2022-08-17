@@ -155,47 +155,47 @@ nav:hover {
     }
 
     .icone{
-        width: 10.739vw;
+        width: 16.739vw;
     }
 
     .insta-icon{
         top: 43.9vh;
-        left: 26.79vw;
+        left: 24.79vw;
     }
 
     .insta-icon + p{
-        top: 50.434vh;
-        left: 25.7vw;
+        top: 53.9vh;
+        left: 26.7vw;
     }
 
     .twitter-icon{
         top: 43.9vh;
-        left: 66.655vw;
+        left: 58.655vw;
     }
 
     .twitter-icon + p{
-        top: 50.434vh;
-        left: 65.5vw;
+        top: 53.9vh;
+        left: 60.5vw;
     }
 
     .tiktok-icon{
         top: 68.585vh;
-        left: 26.79vw;
+        left: 24.79vw;
     }
 
     .tiktok-icon + p{
-        top: 75vh;
-        left: 25.7vw;
+        top: 78.3vh;
+        left: 26.7vw;
     }
 
     .pinterest-icon{
         top: 68.585vh;
-        left: 66.655vw;
+        left: 58.655vw;
     }
 
     .pinterest-icon + p{
-        top: 75vh;
-        left: 65.5vw;
+        top: 78.3vh;
+        left: 60.5vw;
     }
 
 }
