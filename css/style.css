@@ -46,7 +46,7 @@ p {
     left: 28vw;
 }
 
-/* Elementos da navegacao -> Icones, texto e gif */
+/* Elementos da navegacao -> Icones, texto */
 
 nav:hover {
     cursor:pointer;
@@ -60,78 +60,62 @@ nav:hover {
     display: block;
 }
 
-/* instagram */ 
-.insta-icon{
-    top: 18.9vh;
-    left: 46.8vw;
-}
-
-.insta-icon + p{
+/* instagram */
+.insta{
     position: absolute;
-    top: 35.434vh;
-    left: 46.8vw;
+    left:46.8vw;
+    top: 18.9vh;
 }
 
-.insta-icon:hover{
-    content: url('transicao.gif');
+.insta > .insta-icon + p{
+    position: absolute;
+    top: 16.534vh;
 }
 
 /* twitter */
 
-.twitter-icon{
+.twitter{
+    position: absolute;
     top: 18.9vh;
     left: 72.655vw;
 }
 
-.twitter-icon + p{
+.twitter > .twitter-icon + p{
     position: absolute;
-    top: 35.434vh;
-    left: 72.655vw;
-}
-
-.twitter-icon:hover{
-    content: url('transicao.gif');
+    top: 16.534vh;
 }
 
 /* tiktok */
 
-.tiktok-icon{
+.tiktok{
+    position: absolute;
     top: 63.585vh;
     left: 46.8vw;
 }
 
-.tiktok-icon + p{
+.tiktok > .tiktok-icon + p{
     position: absolute;
-    top: 80.53vh;
-    left: 46.8vw;
-}
-
-.tiktok-icon:hover{
-    content: url('transicao.gif');
+    top: 16.534vh;
 }
 
 /* pinterest */ 
 
-.pinterest-icon{
+.pinterest{
+    position: absolute;
     top: 63.585vh;
     left: 72.655vw;
 }
 
-.pinterest-icon + p{
+.pinterest > .pinterest-icon + p{
     position: absolute;
-    top: 80.53vh;
-    left: 72.655vw;
-}
-
-.pinterest-icon:hover{
-    content: url('transicao.gif');
+    top: 16.534vh;
 }
 
 /* Mobile */ 
 
 @media screen and (max-width: 540px){
     p{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .foto-perfil{
@@ -155,58 +139,57 @@ nav:hover {
     }
 
     .icone{
-        width: 16.739vw;
+        width: 5rem;
     }
 
-    .insta-icon{
-        top: 43.9vh;
-        left: 24.79vw;
+
+    .insta{
+        top: 41vh;
+        left: 25vw;
     }
 
-    .insta-icon + p{
-        top: 53.9vh;
-        left: 26.7vw;
+    .insta > .insta-icon + p{
+        top: 14vh;
+        left: 2.5vw;
     }
 
-    .twitter-icon{
-        top: 43.9vh;
-        left: 58.655vw;
+    .twitter{
+        top: 41vh;
+        left: 60vw;
     }
 
-    .twitter-icon + p{
-        top: 53.9vh;
-        left: 60.5vw;
+    .twitter > .twitter-icon + p{
+        top: 14vh;
+        left: 2.5vw;
     }
 
-    .tiktok-icon{
-        top: 68.585vh;
-        left: 24.79vw;
+    .tiktok{
+        top: 68.5vh;
+        left: 25vw;
     }
 
     .tiktok-icon + p{
-        top: 78.3vh;
-        left: 26.7vw;
+        top: 14vh;
+        left: 2.5vw;
     }
 
-    .pinterest-icon{
-        top: 68.585vh;
-        left: 58.655vw;
+    .pinterest{
+        top: 68.5vh;
+        left: 60vw;
     }
 
     .pinterest-icon + p{
-        top: 78.3vh;
-        left: 60.5vw;
+        top: 14vh;
+        left: 2.5vw;
+    }
+    
+    .insta, .insta > .insta-icon + p,
+    .twitter, .twitter > .twitter-icon + p,
+    .tiktok, .tiktok > .tiktok-icon + p,
+    .pinterest, .pinterest > .pinterest-icon + p{
+
+        position: absolute;
+
     }
 
 }
-
-/* 
-
-
-
-
-
-
-
-
-*/
