@@ -67,7 +67,7 @@ nav:hover {
     top: 18.9vh;
 }
 
-.insta > .insta-icon + p{
+.insta-icon + p{
     position: absolute;
     top: 16.534vh;
 }
@@ -80,7 +80,7 @@ nav:hover {
     left: 72.655vw;
 }
 
-.twitter > .twitter-icon + p{
+.twitter-icon + p{
     position: absolute;
     top: 16.534vh;
 }
@@ -93,7 +93,7 @@ nav:hover {
     left: 46.8vw;
 }
 
-.tiktok > .tiktok-icon + p{
+.tiktok-icon + p{
     position: absolute;
     top: 16.534vh;
 }
@@ -106,7 +106,7 @@ nav:hover {
     left: 72.655vw;
 }
 
-.pinterest > .pinterest-icon + p{
+.pinterest-icon + p{
     position: absolute;
     top: 16.534vh;
 }
@@ -114,8 +114,10 @@ nav:hover {
 /* Mobile */ 
 
 @media screen and (max-width: 540px){
-    p{
+    .icone + p{
         font-size: 12px;
+        top: 14vh;
+        left: 2.2vw;
     }
 
     .foto-perfil{
@@ -140,6 +142,7 @@ nav:hover {
 
     .icone{
         width: 5rem;
+        position: absolute;
     }
 
 
@@ -148,19 +151,9 @@ nav:hover {
         left: 25vw;
     }
 
-    .insta > .insta-icon + p{
-        top: 14vh;
-        left: 2.5vw;
-    }
-
     .twitter{
         top: 41vh;
         left: 60vw;
-    }
-
-    .twitter > .twitter-icon + p{
-        top: 14vh;
-        left: 2.5vw;
     }
 
     .tiktok{
@@ -168,28 +161,22 @@ nav:hover {
         left: 25vw;
     }
 
-    .tiktok-icon + p{
-        top: 14vh;
-        left: 2.5vw;
-    }
-
     .pinterest{
         top: 68.5vh;
         left: 60vw;
     }
 
-    .pinterest-icon + p{
-        top: 14vh;
-        left: 2.5vw;
-    }
-    
-    .insta, .insta > .insta-icon + p,
-    .twitter, .twitter > .twitter-icon + p,
-    .tiktok, .tiktok > .tiktok-icon + p,
-    .pinterest, .pinterest > .pinterest-icon + p{
+}
 
+@media screen and (max-width: 769px){
+    .icone{
+        width: 4.5rem;
         position: absolute;
-
     }
 
+    .icone + p{
+        font-size: 12px;
+        top: 14vh;
+        left: 0.6vw;
+    }
 }
